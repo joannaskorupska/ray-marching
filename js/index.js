@@ -43,9 +43,9 @@ var setArrayBuffer = function setArrayBuffer(gl, buffer, array, length) {
 var vertices = [-1.0, 1.0, 0.0, 1.0, 1.0, 0.0, -1.0, -1.0, 0.0, 1.0, -1.0, 0.0];
 var indecies = [0, 2, 1, 1, 2, 3];
 var init = function init() {
-  canvas.width = window.innerWidth - 80;
+  canvas.width = window.innerWidth - 60;
   canvas.height = window.innerHeight ;
-  canvas.style.width = window.innerWidth - 80 + 'px';
+  canvas.style.width = window.innerWidth - 60 + 'px';
   canvas.style.height = window.innerHeight + 'px';
   if (!gl.getExtension('OES_standard_derivatives')) {
     console.log('OES_standard_derivatives is not supported');
